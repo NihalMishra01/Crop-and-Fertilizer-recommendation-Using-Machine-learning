@@ -7,7 +7,7 @@ This project provides an intelligent recommendation system that suggests the **m
 ## 📁 Project Structure
 
 ```
-├── app.py                           # Streamlit/Flask application for user interface
+├── app.py                           # Streamlit application for user interface
 ├── crop_feature_scaler.pkl         # Scaler used for crop feature normalization
 ├── crop_features.pkl               # Selected features used in crop prediction
 ├── crop_label_encoder.pkl          # Encoder for crop labels
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ### 3. Run the Application
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 *You may use [Streamlit](https://streamlit.io/) or [Flask](https://flask.palletsprojects.com/) depending on how `app.py` is set up.*
@@ -91,6 +91,28 @@ python app.py
 - Pre-trained ML models for offline usage
 - Scalable and modular code structure
 - Clean UI for user input (in `app.py`)
+
+---
+
+## ✨ Visual Demo
+
+![Crop Recommendation Demo](https://media.giphy.com/media/3o7aD2saNwY2g6zQL2/giphy.gif)
+
+---
+
+## 📸 Screenshots
+
+Here’s a quick preview of the app’s interface:
+
+![Crop and Fertilizer Recommendation Interface](https://yourimageurl.com/screenshot.png)
+
+---
+
+## 🔖 Badges
+
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/your-username/crop-fertilizer-recommendation)
 
 ---
 
